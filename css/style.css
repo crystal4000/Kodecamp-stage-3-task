@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Nav{
+    width: 100%;
+    height: 100px;
+   /*background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav .logo{
+    margin-left: 80px;
+}
+
+.Nav .menu img{
+   margin-right: 80px;
+}
+
+.header .header-image{
+    background-image: url("../images/dmin.jpg");
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header .header-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+    color: #fff;
+    padding-top: 100px;
+    
+}
+
+.header .header-text h4{
+    font-size: 3.75rem;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+.header .header-text h1{
+    font-size: 6rem;
+    font-weight: 1000;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.header .header-text hr{
+    border: 7px solid white;
+    width: 90%;
+}
+
+
+.header .repair{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+   padding-top: 30px;
+}
+
+.header .repair .repair-icons{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto 0 0;
+}
+
+.header .repair .repair-icons svg{
+    fill: #fff
+}
+
+.header .repair .repair-icons p{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 20px 0 0;
+}
+
+
+.service-section{
+    height: 500px;
+    width: 100%;
+    color: #111111;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.service-section .service-text{
+    width: 100%;
+}
+
+.service-section .service-text h5{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin: 100px 0 0;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+}
+
+.service-section .service-text h2{
+    font-weight: 700;
+    font-size: 3.125rem;
+    margin: 20px auto 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.service-section .service-text p{
+    width: 780px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 30px auto 0;
+    word-wrap: break-word;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+}
+
+.service-section .service-text button,
+.quality-section .quality-items .quality-text button,
+.final-section .buttons button{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border: none;
+    margin: 30px auto 60px;
+    padding: 16px 36px;
+    color: #ffffff;
+    background-color: #e71a23;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.help-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+    width: 80%;
+}
+
+.help-items .help-one-text{
+    width: 65%;
+    margin: 40px auto;
+    color: #000;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.help-items .help-two-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.help-items .help-two-text h2{
+    font-weight: 700;
+    font-size: 2.25rem;
+    font-family: 'Roboto', sans-serif;  
+}
+
+.help-items .help-two-text h3{
+    margin: 20px 0;
+    font-size: 1.75rem;
+    color: #e71a23;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quality-section{
+    background: url("../images/grey\ background.jpg");
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.quality-section .quality-items{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+
+}
+
+
+.quality-section .quality-items .handy-img{
+    background-image: url("../images/billionphotos1079319min.png");
+    width: 60%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.quality-section .quality-items .quality-text{
+    width: 40%;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.quality-section .quality-items .quality-text h2{
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    color: #104e92;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin: 55px 0 0;
+}
+
+.quality-section .quality-items .quality-text hr{
+    height: 12px;
+    background: #e71a23;
+    border: none;
+    width: 100%;
+    margin: 30px 0 auto;
+}
+
+.quality-section .quality-items .quality-text p{
+    font-size: 1.125rem;
+    margin: 30px 0 0;
+    color: #111111;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.services-section{
+    width: 85%;
+    margin: 80px auto ;
+}
+
+.services-section h1{
+    padding-left: 15px;
+    font-size: 3.225rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.services-section .service-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.services-section .service-items .service{
+    width: 33.3%;
+}
+
+.services-section .service-items .service .service-icon{
+    width: 83px;
+    height: 83px;
+    background-color: #e71a23;
+    padding: 18px;
+    display: flex;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.services-section .service-items .service h4{
+    font-weight: 700;
+    margin: 20px 0 0;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+  
+
+}
+
+.services-section .service-items .service p{
+    font-size: 1.125rem;
+    font-style: italic;
+    margin: 20px 0 0;
+    color: #111111;
+    font-family: 'Open Sans', sans-serif;
+    width: 90.3%;
+    line-height: 1.6;
+}
+
+.about-section{
+    background-color: #104e92;
+    display: flex;
+    height: 90vh;
+    width: 100%;
+}
+
+.about-items{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    margin: 0 auto;
+}
+
+.about-text{
+    padding: 140px;
+    width: 50%;
+}
+
+.about-text h6{
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-text h3{
+    color: white;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 10px 0 0;
+    font-weight: 400;
+    font-family: 'Roboto',sans-serif;
+}
+
+.about-text b{
+    font-weight: bold;
+}
+
+.about-image{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.about-image img{
+    width: 47%;
+    height: 190px;
+    margin-bottom: 25px;
+}
+
+.final-section{
+    width: 55%;
+    margin: 0 auto;
+    height: 500px;
+    text-align: center;
+ 
+}
+
+.final-section h2{
+    font-weight: 700;
+    margin: 0;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 130px;
+}
+
+.final-section p{
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin: 30px 0 0;
+    color: #111111;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.final-section .buttons{
+    justify-content: center;
+}
+
+.final-section .buttons button:nth-child(1){
+    border-radius: 3px;
+    border-color: #e71a23;
+    margin: 15px;
+}
+
+.final-section .buttons button:nth-child(2){
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
